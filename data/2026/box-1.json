@@ -1,0 +1,32 @@
+{
+  "tax_year": "2026",
+  "jurisdiction": "Netherlands",
+  "box_1": {
+    "age_66_or_younger": [
+      {
+        "name": "Bracket 1",
+        "from": 0,
+        "to": 38883,
+        "rate": 0.3575
+      },
+      {
+        "name": "Bracket 2",
+        "from": 38883.01,
+        "to": 78426,
+        "rate": 0.3756
+      },
+      {
+        "name": "Bracket 3",
+        "from": 78426.01,
+        "to": null,
+        "rate": 0.495
+      }
+    ],
+    "aow_age_reached": {
+      "note": "Rate in bracket 1 depends on the month in which AOW age is reached.",
+      "source_table": "https://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/belastingdienst/prive/inkomstenbelasting/heffingskortingen_boxen_tarieven/boxen_en_tarieven/box_1/box_1"
+    }
+  },
+  "source": "https://www.belastingdienst.nl/wps/wcm/connect/nl/werk-en-inkomen/content/hoeveel-inkomstenbelasting-betalen",
+  "last_reviewed": "2026-07-22"
+}
